@@ -75,7 +75,10 @@ private static int getStatusBarHeight(Context context) {
 
 ---
 
-## Other
+## Other Methods
+
+`<item name="android:fitsSystemWindows">true</item>`
+- **Purpose**: Allows the status bar to be visible.
 
 `<item name="android:windowDrawsSystemBarBackgrounds">true</item>`
 - **Purpose**: This attribute enables the customization of the status bar and navigation bar backgrounds.
