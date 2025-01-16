@@ -12,7 +12,7 @@
 
 ## About (English)
 
-Starting from Android 15 (API 35), Google introduced a borderless design where the status bar and other system UI elements blend seamlessly with the content, which can negatively impact the layout of apps designed for older versions. You can address this by using the `android:fitsSystemWindows="true"` attribute, as mentioned in the [Android 15 Behavior Changes](https://developer.android.com/about/versions/15/behavior-changes-15?hl=zh-tw) documentation. However, this method does not allow you to customize the status bar color, and it also affects older versions, preventing a consistent look across devices.
+Starting from Android 15 (API 35), Google introduced a borderless design where the status bar and other system UI elements blend seamlessly with the content, which can negatively impact the layout of apps designed for older versions. You can address this by using the `android:fitsSystemWindows="true"` attribute, as mentioned in the [Android 15 Behavior Changes](https://developer.android.com/about/versions/15/behavior-changes-15) documentation. However, this method does not allow you to customize the status bar color, and it also affects older versions, preventing a consistent look across devices.
 
 This project provides a solution by distinguishing between different API levels. It ensures that for Android 15 (API 35) and above, a status bar with a customizable color is added, while maintaining a consistent design across both new and older Android versions. This enables apps to achieve the same visual appearance across devices, regardless of the Android version.
 
