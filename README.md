@@ -24,7 +24,6 @@ Starting from Android 15 (API 35), Google introduced a borderless design where t
 
 This project provides a solution by distinguishing between different API levels. It ensures that for Android 15 (API 35) and above, a status bar with a customizable color is added, while maintaining a consistent design across both new and older Android versions. This enables apps to achieve the same visual appearance across devices, regardless of the Android version.
 
----
 
 ## About (Chinese)
 
@@ -33,7 +32,6 @@ Android 15 （API 35）以上版本，開始採用無邊框設計，也就是說
 
 因此，本專案依照不同的 API 進行區分，在 Android 15 （API 35）以上版本中增加可自定義顏色的  statusBar，並提供一致的設計，無論是新舊版本皆可保持相同的視覺效果。
 
----
 
 ## How to Implement
 
@@ -91,3 +89,9 @@ private static int getStatusBarHeight(Context context) {
 
 `<item name="android:navigationBarColor">@color/transparent</item>`
 - **Purpose**: This attribute is used to customize the color of the navigation bar.
+
+---
+
+## Conclusion
+
+Hope this helps you! 😊
