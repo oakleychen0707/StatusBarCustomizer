@@ -44,7 +44,7 @@ public static void setStatusBar(Activity activity) {
     ColorDrawable background = new ColorDrawable(ContextCompat.getColor(activity, R.color.color_primary));
 
     if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
-        // API 35 and below
+        // API 34 and below
         activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         activity.getWindow().setStatusBarColor(ContextCompat.getColor(activity, android.R.color.transparent));
         activity.getWindow().setBackgroundDrawable(background);
