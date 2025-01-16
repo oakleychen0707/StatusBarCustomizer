@@ -8,6 +8,14 @@
 - 📱 **API Compatibility**: Supports both older Android versions (API <= 35) and the latest Android versions, providing adaptive solutions.
 - 🛠️ **Padding Adjustments**: Automatically adjusts the status bar height to prevent layout issues and overlaps.
 
+### Screenshots
+
+Here is an example of the status bar customization on different Android versions:
+<p align="center">
+  <img src="Old.png" width="300" />
+  <img src="New.png" width="300" />
+</p>
+
 ---
 
 ## About (English)
@@ -63,3 +71,20 @@ private static int getStatusBarHeight(Context context) {
     }
     return 0;
 }
+```
+
+---
+
+## Other
+
+`<item name="android:windowDrawsSystemBarBackgrounds">true</item>`
+- **Purpose**: This attribute enables the customization of the status bar and navigation bar backgrounds.
+
+`<item name="android:windowTranslucentNavigation">false</item>`
+- **Purpose**: This attribute controls the transparency of the navigation bar.
+
+`<item name="android:statusBarColor">@color/transparent</item>` (I can't use this attribute to change my status bar.)
+- **Purpose**: This attribute is used to set the status bar's color.
+
+`<item name="android:navigationBarColor">@color/transparent</item>`
+- **Purpose**: This attribute is used to customize the color of the navigation bar.
