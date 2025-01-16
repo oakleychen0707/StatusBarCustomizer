@@ -52,8 +52,6 @@ public static void setStatusBar(Activity activity) {
             decorView.getPaddingRight(),
             decorView.getPaddingBottom()
         );
-
-        activity.getWindow().setStatusBarColor(ContextCompat.getColor(activity, R.color.color_primary));
     }
 }
 
