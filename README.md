@@ -14,8 +14,8 @@
 
 Here is an example of the status bar customization on different Android versions:
 <p align="center">
-  <img src="Old.png" width="200" />
-  <img src="New.png" width="200" />
+  <img src="Old.png" width="250" />
+  <img src="New.png" width="250" />
 </p>
 
 ---
